@@ -46,9 +46,8 @@ kogwasys --target examples/VulnerableContract.sol --json --html --out reports
 
 ```
 
-# 🧠 Custom Rules Included
-custom_check_reentrancy.py
+## 🖼️ Example Output
 
-custom_check_oracle.py
+Here’s what a vulnerability scan looks like in your terminal:
 
-Add your own under kogwasys/rules/ and register in scanner.py
+![Kogwasys Output](docs/screenshot.png)
