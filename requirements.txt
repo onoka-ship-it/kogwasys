@@ -1,2 +1,5 @@
 slither-analyzer
 click
+rich
+pytest
+jinja2

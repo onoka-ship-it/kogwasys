@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kogwasys Vulnerability Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+    h1 { color: #333; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f0f0f0; }
+    .High { color: red; font-weight: bold; }
+    .Medium { color: orange; }
+    .Low { color: green; }
+  </style>
+</head>
+<body>
+  <h1>Kogwasys Vulnerability Report</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Severity</th>
+        <th>Contract</th>
+        <th>Function</th>
+        <th>Issue</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="High">High</td>
+        <td>VulnerableContract</td>
+        <td>—</td>
+        <td>Public price variable 'priceFeed' may be manipulated externally.</td>
+      </tr>
+      
+      <tr>
+        <td class="Medium">Medium</td>
+        <td>VulnerableContract</td>
+        <td>getPrice</td>
+        <td>Potential centralized oracle call in function.</td>
+      </tr>
+      
+      <tr>
+        <td class="High">High</td>
+        <td>VulnerableContract</td>
+        <td>withdraw</td>
+        <td>Possible reentrancy vulnerability from external call.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>
