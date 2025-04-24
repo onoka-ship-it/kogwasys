@@ -18,7 +18,7 @@
 - 🚨 Detects **Reentrancy**, **Oracle Manipulation**, **Unchecked Calls**, and more
 - 🔍 Supports custom rule modules for modern vulnerabilities (2025 OWASP SC Top 10)
 - 📂 Scans entire Solidity projects or individual `.sol` files
-- 📊 Outputs detailed terminal reports in Chinese + optional JSON format
+- 📊 Outputs detailed terminal reports in Chinese + optional **JSON** and **HTML** formats
 - 🧩 VS Code compatible for integrated scanning workflows
 - 💡 Fully extensible – add your own static analysis rules
 
@@ -28,10 +28,10 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-org/kogwasys.git
+git clone https://github.com/onoka-ship-it/kogwasys.git
 cd kogwasys
 
-# 2. Set up virtualenv
+# 2. Set up virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
@@ -39,4 +39,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 4. Run a scan
-kogwasys --target path/to/Contract.sol
+kogwasys --target examples/VulnerableContract.sol
+
+# 5. Output JSON + HTML to a custom folder
+kogwasys --target examples/VulnerableContract.sol --json --html --out reports
+
+# 🧠 Custom Rules Included
+custom_check_reentrancy.py
+
+custom_check_oracle.py
+
+Add your own under kogwasys/rules/ and register in scanner.py
