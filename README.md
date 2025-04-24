@@ -1,10 +1,11 @@
 # 🛡️ Kogwasys – Smart Contract Guardian | 智能合约卫士
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/github/license/your-org/kogwasys)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/github/license/onoka-ship-it/kogwasys)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Issues](https://img.shields.io/github/issues/onoka-ship-it/kogwasys)
+![Stars](https://img.shields.io/github/stars/onoka-ship-it/kogwasys?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/onoka-ship-it/kogwasys)
 
 **Kogwasys** is a Python-powered command-line tool that protects Solidity smart contracts from critical security vulnerabilities. Built on [Slither](https://github.com/crytic/slither), it combines custom rule sets with trusted static analysis to detect classic and modern Web3 threats.
 
