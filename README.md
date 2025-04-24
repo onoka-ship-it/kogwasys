@@ -44,6 +44,8 @@ kogwasys --target examples/VulnerableContract.sol
 # 5. Output JSON + HTML to a custom folder
 kogwasys --target examples/VulnerableContract.sol --json --html --out reports
 
+```
+
 # 🧠 Custom Rules Included
 custom_check_reentrancy.py
 
