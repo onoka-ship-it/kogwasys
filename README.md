@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/github/license/your-org/kogwasys)
 ![Status](https://img.shields.io/badge/status-active-success)
-![Security](https://img.shields.io/badge/security-auditor--grade-A-important)
+[![CodeQL](https://github.com/onoka-ship-it/kogwasys/actions/workflows/codeql.yml/badge.svg)](https://github.com/onoka-ship-it/kogwasys/actions/workflows/codeql.yml)
 ![License](https://img.shields.io/github/license/onoka-ship-it/kogwasys)
 
 
