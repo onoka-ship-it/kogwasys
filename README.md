@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/github/license/your-org/kogwasys)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Security](https://img.shields.io/badge/security-auditor--grade-A-important)
+![License](https://img.shields.io/github/license/onoka-ship-it/kogwasys)
+
 
 **Kogwasys** is a Python-powered command-line tool that protects Solidity smart contracts from critical security vulnerabilities. Built on [Slither](https://github.com/crytic/slither), it combines custom rule sets with trusted static analysis to detect classic and modern Web3 threats.
 
